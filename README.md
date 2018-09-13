@@ -5,4 +5,4 @@
 - Kubernetes exposes the underlying infrastructure as a singel conputational resource.
 - Consistent deployment exprience regardless of the size og the cluster.
 
-![img text](https://github.com/milindchavan12/aks/blob/master/Assets/KubeArchitecture.png)
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/KubeArchitecture.png)
