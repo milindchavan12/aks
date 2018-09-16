@@ -10,7 +10,12 @@
 ### kubectl
 Kubectl is command line interface for running commands against Kubernetes cluster.
 
-## Building the docker image
+### Building the docker image
 `
  docker build . -t <imageName>:local
+`
+
+### To view all the docker images
+`
+ docker image list
 `
