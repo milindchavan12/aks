@@ -34,3 +34,8 @@ docker run -d -p 5000:80 letskube:local
 `
 docker container rm -f $(docker ps -aq)
 `
+
+### To create deployment of the image
+`
+kubectl run kubectl-deployment --image:letskube:local --port=80 --replica=3
+`
