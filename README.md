@@ -45,5 +45,11 @@ There are two ways we can do deployment of application in Kubernetes Cluster
 `
 kubectl run kubectl-deployment --image=letskube:local --port=80 --replicas=3
 `
+
 ## Azure Container Registry
 Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.
+
+### Steps to create ACR via Azure CLI
+
+### Create New Resource Group 
+`az group create -n  letskube-rg -l westeurope`
