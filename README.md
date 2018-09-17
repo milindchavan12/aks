@@ -55,5 +55,5 @@ Azure Container Registry allows you to store images for all types of container d
 `az group create -n  letskube-rg -l westeurope`
 
 ### 2. Create ACR
-`z acr create -n letskubedemo -g letskube-rg -l westeurope --sku Basic`
+`az acr create -n letskubedemo -g letskube-rg -l westeurope --sku Standard`
 
