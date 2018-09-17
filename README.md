@@ -51,5 +51,9 @@ Azure Container Registry allows you to store images for all types of container d
 
 ### Steps to create ACR via Azure CLI
 
-### Create New Resource Group 
+### 1. Create New Resource Group 
 `az group create -n  letskube-rg -l westeurope`
+
+### 2. Create ACR
+`z acr create -n letskubedemo -g letskube-rg -l westeurope --sku Basic`
+
