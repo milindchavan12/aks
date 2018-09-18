@@ -64,6 +64,6 @@ Please login to azure cli with `az login` commmand
 
 If a default resource group is set, that's the resource group that will be used for `az acr list -o table`, then remove the default `az configure --defaults group=''`
 
-### To login to Container Registry
+### 4. To login to Container Registry
 `az acr login -n letskubeMilind`
 
