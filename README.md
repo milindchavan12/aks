@@ -67,3 +67,4 @@ If a default resource group is set, that's the resource group that will be used 
 ### 4. To login to Container Registry
 `az acr login -n letskubeMilind`
 
+### 5. Tag the local docker image
