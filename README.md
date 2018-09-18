@@ -57,9 +57,13 @@ Please login to azure cli with `az login` commmand
 `az group create -n  letskube-rg -l westeurope`
 
 ### 2. Create ACR
-`az acr create -n letskubedemo -g letskube-rg -l westeurope --sku Standard`
+`az acr create -n letskubeMilind -g letskube-rg -l westeurope --sku Standard`
 
 ### 3. To show all the ACR list
 `az acr list -o table`
 
 If a default resource group is set, that's the resource group that will be used for `az acr list -o table`, then remove the default `az configure --defaults group=''`
+
+### To login to Container Registry
+`az acr login -n letskubeMilind`
+
