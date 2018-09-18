@@ -57,3 +57,7 @@ Azure Container Registry allows you to store images for all types of container d
 ### 2. Create ACR
 `az acr create -n letskubedemo -g letskube-rg -l westeurope --sku Standard`
 
+### 3. To show all the ACR list
+`az acr list -o table`
+
+If a default resource group is set, that's the resource group that will be used for `az acr list -o table`, then remove the default `az configure --defaults group=''`
