@@ -68,3 +68,10 @@ If a default resource group is set, that's the resource group that will be used 
 `az acr login -n letskubeMilind`
 
 ### 5. Tag the local docker image
+
+To upload the local docker image, we need to first tag it by Login Server name of the image.
+`docker tag letskube:local letskubemilind.azurecr.io/letskube:v1`
+
+The result of the Local and tagged image :
+
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/tagging.png)
