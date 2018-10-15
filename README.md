@@ -50,7 +50,7 @@ Azure Container Registry allows you to store images for all types of container d
 
 ### Development Roadmap of Azure Container Regoistry
 
-![img text](https://github.com/milindchavan12/aks/blob/master/assets/ACR Roadmap.png)
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/ACR%20Roadmap.png)
 
 ## Steps to create ACR via Azure CLI
 
