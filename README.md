@@ -48,6 +48,10 @@ kubectl run kubectl-deployment --image=letskube:local --port=80 --replicas=3
 ## Azure Container Registry
 Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.
 
+### Development Roadmap of Azure Container Regoistry
+
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/ACR Roadmap.png)
+
 ## Steps to create ACR via Azure CLI
 
 Please login to azure cli with `az login` commmand
