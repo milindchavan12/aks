@@ -7,7 +7,7 @@
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/KubeArchitecture.png)
 
-## Running the Application on Kubernetes
+## Running the Application in Kubernetes
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
 
