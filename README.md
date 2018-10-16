@@ -7,11 +7,11 @@
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/KubeArchitecture.png)
 
-### Running the Application on Kubernetes
+## Running the Application on Kubernetes
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
 
-### kubectl
+## kubectl
 Kubectl is command line interface for running commands against Kubernetes cluster.
 
 ### Building the docker image
