@@ -20,6 +20,13 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
 - Made of one of more containers and information associated with these containers.
 
+### 3. Namespaces
+- Pods are collected into Namespaces, which are used to group pods.
+- Namespaces can be used to provide qoutas and limits around resource usage.
+
+### 4. nodes
+- Node is machine (linux) that is added to the kubernetes cluster.
+- Master node is the Brain of Kubernetes while Worker nodes (minions) 
 
 ### Building the docker image
 `
