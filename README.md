@@ -26,7 +26,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 
 ### 4. nodes
 - Node is machine (linux) that is added to the kubernetes cluster.
-- Master node is the Brain of Kubernetes while Worker nodes (minions) 
+- Master node is the Brain of Kubernetes while Worker nodes (minions) do the real work
 
 ### Building the docker image
 `
