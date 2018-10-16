@@ -11,8 +11,15 @@
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
 
-## kubectl
+## Kubernetes Objects
+
+### 1. kubectl
 Kubectl is command line interface for running commands against Kubernetes cluster.
+
+### 2. pods
+- Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
+- Made of one of more containers and information associated with these containers.
+
 
 ### Building the docker image
 `
