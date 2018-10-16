@@ -26,7 +26,26 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 
 ### 4. nodes
 - Node is machine (linux) that is added to the kubernetes cluster.
-- Master node is the Brain of Kubernetes while Worker nodes (minions) do the real work
+- Master node is the Brain of Kubernetes while Worker nodes (minions) do the real work.
+
+### 5. Networks 
+- All containers in pod share a Node's network
+- All nodes in Kubernetes cluster are expected to be connected to each and share a private cluster-wide network.
+
+### 6. Controllers 
+?
+
+### 7. ReplicaSet
+- A ReplicaSet is associated with Pod and indicates how many pod should be running within cluster.
+- A ReplicaSrt implies a controller that atches the ongoing state.
+
+### 8. Deployments
+- Most recommended way to run code on kubernetes is via Deployments.
+
+### 9. Services
+- Service is Kubernetes Resource used ot provide an abstraction through to your pods agnostic of the specific instance that are running.
+- Emulates the software load balancer within kubernetes.
+
 
 ### Building the docker image
 `
