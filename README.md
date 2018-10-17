@@ -46,9 +46,12 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - Service is Kubernetes Resource used ot provide an abstraction through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
 
+------------------------------------------------------------------------------------------------------------
+
 # Azure Kubernetes Service
 - AKS simplifies deployment, management and operations of kubernetes.
 - Make it easy to deploy and manage Containerized applications without Container Orcherstration expertise.
+- Eliminates the burden of on-going operations and maintenance by provisioning, upgrading and scaling resources on demand.
 
 ### Building the docker image
 `
