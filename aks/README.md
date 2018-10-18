@@ -42,6 +42,7 @@ kubectl get pods
 
 ### To create service via kubectl
 The Service of type NodePort exposes the service on each nodes IP
+
 `
 kubectl expose deployment letskube-deployment --type=NodePort
 `
