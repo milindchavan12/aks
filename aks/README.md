@@ -77,4 +77,14 @@ AKS uses the Service Principal to access the other Azure Resources like the Azur
 `az acr show --name letskubeacr --resource-group letskuberg --query "id" --output tsv`
 
 ### Grant the role assignment
-`az role assignement create --assignee <service-principalId> --role Reader --role $acrId`
+`az role assignement create --assignee <appId-from-ad> --role Reader --role $acrId`
+
+-------------------------------------------
+
+# Create Azure Kubernetes Service Cluster
+
+`az aks create
+        --name letskubecluster `
+        --resource-group letskuberg `
+        --node-count 1 `
+        --generate-ssh-keys`
