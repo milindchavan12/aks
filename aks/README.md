@@ -65,6 +65,11 @@ kubectl delete service kubectl-deployment
 kubectl create -f .\letskubedeploy.yml
 `
 
+### To update deployment of the image with new version 
+`
+kubectl set image deployment letskube-deployment letskube=letskubeacr.azurecr.io/letskube:v2
+`
+
 ------------------------------------------
 
 ## Service Principal
