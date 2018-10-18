@@ -29,3 +29,13 @@ So following things happens when we execute the above command:
 `
 kubectl get deployments
 `
+
+### To get replicasets of the image via kubectl
+`
+kubectl get rs
+`
+
+### To get pods of the image via kubectl
+`
+kubectl get pods
+`
