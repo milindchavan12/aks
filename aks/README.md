@@ -19,6 +19,7 @@ There are two ways we can do deployment of application in Kubernetes Cluster
 `
 kubectl run kubectl-deployment --image=letskube:local --port=80 --replicas=3
 `
+
 So following things happens when we execute the above command:
 - Deployment is created with desired state of 3 replicas.
 - ReplicaSet are created which makes sure there are always 3 replicas are running.

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: letskube
 spec:
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       name: letskube
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: letskube
-        image: letskubedemo.azurecr.io/letskube:latest
+        image: letskube:local
         imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
