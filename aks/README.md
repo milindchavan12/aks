@@ -64,3 +64,5 @@ kubectl delete service kubectl-deployment
 `
 kubectl create -f .\letskubedeploy.yml
 `
+
+------------------------------------------
