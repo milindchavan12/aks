@@ -72,3 +72,9 @@ AKS uses the Service Principal to access the other Azure Resources like the Azur
 
 ### To create Service Principal via Azure CLI
 `az ad sp create-for-rbac --skip-assignment`
+
+### Get ACR ID
+`az acr show --name letskubeacr --resource-group letskuberg --query "id" --output tsv`
+
+### Grant the role assignment
+`az role assignement create --assignee <service-principalId> --role Reader --role $acrId`
