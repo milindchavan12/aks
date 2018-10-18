@@ -30,12 +30,23 @@ So following things happens when we execute the above command:
 kubectl get deployments
 `
 
-### To get replicasets of the image via kubectl
+### To get replicasets via kubectl
 `
 kubectl get rs
 `
 
-### To get pods of the image via kubectl
+### To get pods via kubectl
 `
 kubectl get pods
+`
+
+### To create service via kubectl
+The Service of type NodePort exposes the service on each nodes IP
+`
+kubectl expose deployment letskube-deployment --type=NodePort
+`
+
+### To verifiy if the service is created
+`
+kubectl get svc
 `
