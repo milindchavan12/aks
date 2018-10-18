@@ -9,7 +9,7 @@
 - Easy cluster scaling.
 - Self healing hosted control plane (masters)
 
-## Deployment of Application in Kubernetes cluster
+## Deployment of Application in Kubernetes cluster [Local]
 
 There are two ways we can do deployment of application in Kubernetes Cluster
 - Interactively (via Kubectl)
