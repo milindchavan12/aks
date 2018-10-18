@@ -66,3 +66,7 @@ kubectl create -f .\letskubedeploy.yml
 `
 
 ------------------------------------------
+
+## Service Principal
+AKS uses the Service Principal to access the other Azure Resources like the Azure Container Registry (ACR)
+
