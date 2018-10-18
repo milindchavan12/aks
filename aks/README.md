@@ -71,4 +71,4 @@ kubectl create -f .\letskubedeploy.yml
 AKS uses the Service Principal to access the other Azure Resources like the Azure Container Registry (ACR)
 
 ### To create Service Principal via Azure CLI
-`az ad sp create-for-rbac`
+`az ad sp create-for-rbac --skip-assignment`
