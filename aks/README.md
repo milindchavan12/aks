@@ -56,5 +56,11 @@ kubectl get svc
 ### To delete the local deployment and service
 `
 kubectl delete deployment kubectl-deployment
+
 kubectl delete service kubectl-deployment
+`
+
+### To create deployment of the image via YML file 
+`
+kubectl create -f .\letskubedeploy.yml
 `
