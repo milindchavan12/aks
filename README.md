@@ -33,7 +33,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - All nodes in Kubernetes cluster are expected to be connected to each and share a private cluster-wide network.
 
 ### 6. Controllers 
-?
+- ReplicationController ensures that specified number of pod replicas are running at any one time
 
 ### 7. ReplicaSet
 - A ReplicaSet is associated with Pod and indicates how many pod should be running within cluster.
@@ -43,7 +43,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - Most recommended way to run code on kubernetes is via Deployments.
 
 ### 9. Services
-- Service is Kubernetes Resource used ot provide an abstraction through to your pods agnostic of the specific instance that are running.
+- Service is Kubernetes Resource used to provide an abstraction through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
 
 ------------------------------------------------------------------------------------------------------------
