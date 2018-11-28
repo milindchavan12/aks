@@ -32,7 +32,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - Made of one of more containers and information associated with these containers.
 
 **Pod's LifeCycle**
-![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-liefcycle.png)
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-lifecycle.png)
 
 ### 3. Namespaces
 - Pods are collected into Namespaces, which are used to group pods.
