@@ -3,14 +3,20 @@
 "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications." - Primary definition from https://kubernetes.io/
 
 - Kubernetes exposes the underlying infrastructure as a singel computational resource.
-- Consistent deployment exprience regardless of the size og the cluster.
+- Consistent deployment exprience regardless of the size of the cluster.
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/KubeArchitecture.png)
 
 ### Master
 Master is the brain of Kubernetes. Command and query are coming to api-server via command line utility (kubectl). And depending upon the command and action, the execution is performed on Nodes.
 
+![img text](https://github.com/milindchavan12/kubernetes/blob/master/assets/kube-master.png)
 
+### Node
+The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists of 3 components:
+- Kubelet : Is main kubernetes agent on the node. Exposes the endpoint on : 10255 port for inspecting the node.
+- Container Engine : Does Container managment like Pulling images and starting/stoping containers.
+- Kube-proxy : is Kubernetes networking, That means ONE IP per pode in container. Also Load Balances across all pods in a Service
 
 ## Running the Application in Kubernetes
 
