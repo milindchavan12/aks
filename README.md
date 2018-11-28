@@ -31,6 +31,9 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
 - Made of one of more containers and information associated with these containers.
 
+**Pod's LifeCycle**
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-liefcycle.png)
+
 ### 3. Namespaces
 - Pods are collected into Namespaces, which are used to group pods.
 - Namespaces can be used to provide qoutas and limits around resource usage.
@@ -56,6 +59,8 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 ### 9. Services
 - Service is Kubernetes Resource used to provide an abstraction through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
+
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/service.png)
 
 ------------------------------------------------------------------------------------------------------------
 
