@@ -10,7 +10,7 @@
 ### Master
 Master is the brain of Kubernetes. Command and query are coming to api-server via command line utility (kubectl). And depending upon the command and action, the execution is performed on Nodes.
 
-
+![img text](https://github.com/milindchavan12/kubernetes/blob/master/assets/kube-master.png)
 
 ## Running the Application in Kubernetes
 
