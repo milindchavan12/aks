@@ -50,7 +50,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - ReplicationController ensures that specified number of pod replicas are running at any one time
 
 ### 7. Services
-- Service is Kubernetes Resource used to provide an abstraction through to your pods agnostic of the specific instance that are running.
+- Service is Kubernetes Resource used to provide an **abstraction** through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/service.png)
