@@ -76,6 +76,7 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 
 ### Start/Stop/Delete minikube
 - To Start `minikube start --vm-driver=xhyve`
+- To View dashboard `minikube dashboard`
 - To Stop `minikube stop`
 - To Delete `minikube delete`
 
