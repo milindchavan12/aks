@@ -64,6 +64,9 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 
 ------------------------------------------------------------------------------------------------------------
 
+## Installing kubectl
+- On fresh install : `brew install kubectl`
+- For update : `brew upgrade kubernetes-cli`
 
 ### Building the docker image
 `
