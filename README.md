@@ -68,6 +68,12 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - On fresh install : `brew install kubectl`
 - For update : `brew upgrade kubernetes-cli`
 
+## Installing Minikube
+- `brew cast install minikube`
+- To use minikube vm xhyve : `brew install docker-machine-driver-xhyve`
+
+
+------------------------------------------------------------------------------------------------------------
 ### Building the docker image
 `
  docker build . -t <imageName>:local
