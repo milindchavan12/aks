@@ -33,10 +33,6 @@ Labels are key-value pairs that are used to group together sets of objects. labe
 ### Replication Controller/Replica Set
 - ReplicationController ensures that specified number of pod replicas are running at any one time.
 
-## Running the Application in Kubernetes
-
-![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
-
 ## Kubernetes Objects
 
 ### 1. kubectl
@@ -74,6 +70,10 @@ Kubectl is command line interface for running commands against Kubernetes cluste
     - A ReplicaSet implies a controller that atches the ongoing state.
 
 ------------------------------------------------------------------------------------------------------------
+
+## Running the Application in Kubernetes
+
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
 
 ## Installing Minikube
 
