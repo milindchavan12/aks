@@ -27,23 +27,24 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 - Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
 - Each pod contains one or more containers.
 
+**Pod's LifeCycle**
+![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-lifecycle.png)
+
 ### Label
 Labels are key-value pairs that are used to group together sets of objects. labels are dedicated for identifying objects and not for attaching arbitrary metadata to objects.
 
 ### Replication Controller/Replica Set
 - ReplicationController ensures that specified number of pod replicas are running at any one time.
 
+### Secret
+Secrets are small objects that contain sensitive info such as credentials and tokens. They are stored as plaintext in **etcd**
+
 ## Kubernetes Objects
 
 ### 1. kubectl
 Kubectl is command line interface for running commands against Kubernetes cluster.
 
-
-
-**Pod's LifeCycle**
-![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-lifecycle.png)
-
-### 3. Namespaces
+### 2. Namespaces
 - Pods are collected into Namespaces, which are used to group pods.
 - Namespaces can be used to provide qoutas and limits around resource usage.
 
