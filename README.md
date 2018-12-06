@@ -9,7 +9,7 @@
 
 ## Kubernetes Concepts
 
-## Cluster
+### Cluster
 A cluster is a collection of hosts storage and networking resources that Kubernetes uses to run the various workloads.
 
 ### Master
@@ -23,6 +23,10 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 - Container Engine : Does Container managment like Pulling images and starting/stoping containers.
 - Kube-proxy : is Kubernetes networking, That means ONE IP per pode in container. Also Load Balances across all pods in a Service
 
+### 2. Pod
+- Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
+- Each pod contains one or more containers.
+
 ## Running the Application in Kubernetes
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
@@ -32,9 +36,7 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 ### 1. kubectl
 Kubectl is command line interface for running commands against Kubernetes cluster.
 
-### 2. pods
-- Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
-- Made of one of more containers and information associated with these containers.
+
 
 **Pod's LifeCycle**
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-lifecycle.png)
