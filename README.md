@@ -7,6 +7,11 @@
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/KubeArchitecture.png)
 
+## Kubernetes Concepts
+
+## Cluster
+A cluster is a collection of hosts storage and networking resources that Kubernetes uses to run the various workloads.
+
 ### Master
 Master is the brain of Kubernetes. Command and query are coming to api-server via command line utility (kubectl). And depending upon the command and action, the execution is performed on Nodes.
 
