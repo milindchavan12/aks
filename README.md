@@ -30,6 +30,9 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 ### Label
 Labels are key-value pairs that are used to group together sets of objects. labels are dedicated for identifying objects and not for attaching arbitrary metadata to objects.
 
+### Replication Controller/Replica Set
+- ReplicationController ensures that specified number of pod replicas are running at any one time.
+
 ## Running the Application in Kubernetes
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/RunApp.png)
@@ -56,8 +59,6 @@ Kubectl is command line interface for running commands against Kubernetes cluste
 - All containers in pod share a Node's network
 - All nodes in Kubernetes cluster are expected to be connected to each and share a private cluster-wide network.
 
-### 6. Controllers 
-- ReplicationController ensures that specified number of pod replicas are running at any one time
 
 ### 7. Services
 - Service is Kubernetes Resource used to provide an **abstraction** through to your pods agnostic of the specific instance that are running.
