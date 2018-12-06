@@ -23,9 +23,12 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 - Container Engine : Does Container managment like Pulling images and starting/stoping containers.
 - Kube-proxy : is Kubernetes networking, That means ONE IP per pode in container. Also Load Balances across all pods in a Service
 
-### 2. Pod
+### Pod
 - Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
 - Each pod contains one or more containers.
+
+### Label
+Labels are key-value pairs that are used to group together sets of objects. labels are dedicated for identifying objects and not for attaching arbitrary metadata to objects.
 
 ## Running the Application in Kubernetes
 
