@@ -39,31 +39,17 @@ Labels are key-value pairs that are used to group together sets of objects. labe
 ### Secret
 Secrets are small objects that contain sensitive info such as credentials and tokens. They are stored as plaintext in **etcd**
 
-## Kubernetes Objects
-
-### 1. kubectl
-Kubectl is command line interface for running commands against Kubernetes cluster.
-
-### 2. Namespaces
+### Namespaces
 - Pods are collected into Namespaces, which are used to group pods.
 - Namespaces can be used to provide qoutas and limits around resource usage.
 
-### 4. nodes
-- Node is machine (linux) that is added to the kubernetes cluster.
-- Master node is the Brain of Kubernetes while Worker nodes (minions) do the real work.
-
-### 5. Networks 
-- All containers in pod share a Node's network
-- All nodes in Kubernetes cluster are expected to be connected to each and share a private cluster-wide network.
-
-
-### 7. Services
+### Services
 - Service is Kubernetes Resource used to provide an **abstraction** through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/service.png)
 
-### 8. Deployments
+### Deployments
 - Most recommended way to run code on kubernetes is via Deployments. Deployments are first class REST object in kubernetes API
   
   **ReplicaSet**
