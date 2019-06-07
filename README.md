@@ -49,6 +49,7 @@ Secrets are small objects that contain sensitive info such as credentials and to
 ### Services
 - Service is Kubernetes Resource used to provide an **abstraction** through to your pods agnostic of the specific instance that are running.
 - Emulates the software load balancer within kubernetes.
+- Provides IP adn DNS for the service
 
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/service.png)
 
