@@ -2,6 +2,8 @@
 
 "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications." - Primary definition from https://kubernetes.io/
 
+In short **Kubernetes is Container Orchestrator**.
+
 - Kubernetes exposes the underlying infrastructure as a singel computational resource.
 - Consistent deployment exprience regardless of the size of the cluster.
 
