@@ -28,8 +28,9 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 ### Pod
 - Pod is smallest unit that Kubernetes manages and is fundamental unit on which rest of the Kubernetes system build on.
 - Each pod contains one or more containers.
+- Pods are *Emphemeral* - N pod is ever **Redeployed**
 
-**Pod's LifeCycle**
+**Pod's LifeCycle** (Atomicity)
 ![img text](https://github.com/milindchavan12/aks/blob/master/assets/pod-lifecycle.png)
 
 ### Label
