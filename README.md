@@ -61,6 +61,9 @@ Secrets are small objects that contain sensitive info such as credentials and to
     - A ReplicaSet implies a controller that atches the ongoing state.
 
 ------------------------------------------------------------------------------------------------------------
+## Kubernetes Cluster Network Ports
+![img text](https://github.com/milindchavan12/kubernetes/blob/master/assets/networkports.png)
+
 
 ## Running the Application in Kubernetes
 
