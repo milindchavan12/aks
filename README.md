@@ -36,9 +36,6 @@ The Node is Kubernetes Worker/Machine added to Kubernetes Cluster. Node consists
 ### Label
 Labels are key-value pairs that are used to group together sets of objects. labels are dedicated for identifying objects and not for attaching arbitrary metadata to objects.
 
-### Replication Controller/Replica Set
-- ReplicationController ensures that specified number of pod replicas are running at any one time.
-
 ### Secret
 Secrets are small objects that contain sensitive info such as credentials and tokens. They are stored as plaintext in **etcd**
 
@@ -58,7 +55,7 @@ Secrets are small objects that contain sensitive info such as credentials and to
   
   **ReplicaSet**
     - A ReplicaSet is associated with Pod and indicates how many pod should be running within cluster.
-    - A ReplicaSet implies a controller that atches the ongoing state.
+    - A ReplicaSet implies a controller that matches the ongoing state.
 
 ------------------------------------------------------------------------------------------------------------
 ## Kubernetes Cluster Network Ports
