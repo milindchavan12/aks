@@ -89,6 +89,7 @@ AKS uses the Service Principal to access the other Azure Resources like the Azur
 # Create Azure Kubernetes Service Cluster
 
 `
+
   az aks create
 
         --name letskubecluster 
