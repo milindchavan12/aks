@@ -88,20 +88,12 @@ AKS uses the Service Principal to access the other Azure Resources like the Azur
 
 # Create Azure Kubernetes Service Cluster
 
-`
-
-  az aks create
-
+`az aks create
         --name letskubecluster 
-
-        --resource-group letskuberg 
-        
-        --node-count 1 
-        
+        --resource-group letskuberg  
+        --node-count 1       
         --generate-ssh-keys
-        
         --service-principal <app-id>
-        
         --client-secret <app-secret>
 `
 
