@@ -21,7 +21,5 @@ spec:
     matchLabels:
       type: front-end
 
-# kubectl create -f replicaset-definition.yml 
-# kubectl replace -f replicaset-definition.yml
-# kubectl scale --replica=6 -f replicaset-definition.yml
-# kubectl scale --replica=6 replicaset my-replicaset
+# kubectl create -f deployment-definition.yml 
+# kubectl replace -f deployment-definition.yml
