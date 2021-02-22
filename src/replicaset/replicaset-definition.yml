@@ -23,5 +23,5 @@ spec:
 
 # kubectl create -f replicaset-definition.yml 
 # kubectl replace -f replicaset-definition.yml
-# kubectl scale --replica=6 -f replicaset-definition.yml
-# kubectl scale --replica=6 replicaset my-replicaset
+# kubectl scale --replicas=6 -f replicaset-definition.yml
+# kubectl scale --replicas=6 replicaset my-replicaset
